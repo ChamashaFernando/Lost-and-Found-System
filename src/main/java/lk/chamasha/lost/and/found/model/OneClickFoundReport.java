@@ -13,6 +13,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @AllArgsConstructor
 @Builder
+@Table(name = "one_click_found_reports")
 public class OneClickFoundReport {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
